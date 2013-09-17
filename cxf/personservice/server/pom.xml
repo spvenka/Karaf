@@ -111,17 +111,6 @@
                 <configuration>
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-                        <Export-Package>
-							javax.ws.rs;version=${ws.version},
-							javax.ws.rs.core;version=${ws.version},
-							javax.ws.rs.ext;version=${ws.version}
-						</Export-Package>
-						<Import-Package>
-							javax.ws.rs;version=${ws.version},
-							javax.ws.rs.core;version=${ws.version},
-							javax.ws.rs.ext;version=${ws.version},
-							*
-						</Import-Package>
                     </instructions>
                 </configuration>
             </plugin>
